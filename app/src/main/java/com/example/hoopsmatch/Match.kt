@@ -1,4 +1,4 @@
-package com.example.hoopmatch
+package com.example.hoopsmatch
 
 // Сама модель одного матча
 data class Match(
