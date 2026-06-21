@@ -1,3 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <string name="app_name">HoopsMatch</string>
+    <string name="app_name">HoopMatch</string>
+    <string name="create_match">Создать матч</string>
+    <string name="search_hint">Поиск матчей...</string>
+    <string name="details">Подробнее</string>
+    <string name="join_match">Присоединиться</string>
+    <string name="joined_success">Вы присоединились к матчу</string>
+    <string name="match_full">Матч уже заполнен</string>
+    <string name="organizer_profile">Профиль организатора</string>
+    <string name="save">Создать</string>
+    <string name="error_empty_fields">Заполните все поля</string>
 </resources>
