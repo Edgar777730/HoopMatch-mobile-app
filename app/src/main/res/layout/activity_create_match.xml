@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/background_light">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="16dp">
+
+        <com.google.android.material.appbar.MaterialToolbar
+            android:id="@+id/toolbar"
+            android:layout_width="match_parent"
+            android:layout_height="?attr/actionBarSize"
+            app:title="Создание матча"
+            app:titleTextColor="@color/primary" />
+
+        <EditText android:id="@+id/etTitle"
+            android:layout_width="match_parent" android:layout_height="wrap_content"
+            android:hint="Название матча" android:layout_marginTop="8dp" />
+
+        <EditText android:id="@+id/etCourt"
+            android:layout_width="match_parent" android:layout_height="wrap_content"
+            android:hint="Площадка" android:layout_marginTop="8dp" />
+
+        <EditText android:id="@+id/etDate"
+            android:layout_width="match_parent" android:layout_height="wrap_content"
+            android:hint="Дата (ДД.ММ.ГГГГ)" android:layout_marginTop="8dp" />
+
+        <EditText android:id="@+id/etTime"
+            android:layout_width="match_parent" android:layout_height="wrap_content"
+            android:hint="Время (ЧЧ:ММ)" android:layout_marginTop="8dp" />
+
+        <EditText android:id="@+id/etMaxPlayers"
+            android:layout_width="match_parent" android:layout_height="wrap_content"
+            android:hint="Максимальное количество игроков"
+            android:inputType="number" android:layout_marginTop="8dp" />
+
+        <EditText android:id="@+id/etLevel"
+            android:layout_width="match_parent" android:layout_height="wrap_content"
+            android:hint="Уровень игры (Новичок/Любитель/Профи)" android:layout_marginTop="8dp" />
+
+        <EditText android:id="@+id/etDescription"
+            android:layout_width="match_parent" android:layout_height="100dp"
+            android:hint="Описание" android:gravity="top"
+            android:layout_marginTop="8dp" />
+
+        <com.google.android.material.button.MaterialButton
+            android:id="@+id/btnCreate"
+            android:layout_width="match_parent"
+            android:layout_height="56dp"
+            android:layout_marginTop="24dp"
+            android:text="@string/save"
+            app:cornerRadius="8dp"
+            android:backgroundTint="@color/primary" />
+    </LinearLayout>
+</ScrollView>
