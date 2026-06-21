@@ -3,7 +3,7 @@ package com.example.hoopsmatch
 import android.view.LayoutInflater
 import android.view.ViewGroup
 import androidx.recyclerview.widget.RecyclerView
-import com.example.hoopmatch.databinding.ItemMatchBinding
+import com.example.hoopsmatch.databinding.ItemMatchBinding
 
 class MatchAdapter(
     private var matchList: List<Match>,
